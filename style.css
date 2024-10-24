@@ -63,3 +63,9 @@ label{
 .btnlogin:hover{
     background-color: blue ;
 }
+/*HEADER RESPONSIVO*/
+@media  (max-width:991px) {
+    .menu{
+        padding: 30px;
+    }
+}
