@@ -24,11 +24,42 @@ header{
     padding: 0, 5%;
     height: 100px;
 }
+/*ESTILO DEL HEADER*/
 .logo{
-    height: 50px;
+    height: 70px;
+    border-radius: 30px;
 }
 .menu{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.menu-icono{
+    border-radius: 30px;
+    height: 60px;
+}
+.item{
+    margin: 0 15px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.item:hover{
+    color: blue;
+}
+label{
+    cursor: pointer;
+    display: none;
+}
+.btnlogin{
+    padding: 10px 24px; 
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btnlogin:hover{
+    background-color: blue ;
 }
